@@ -39,6 +39,8 @@ logtalk_doclet_logs/
 *.po
 
 temp.log
+**/.idea/**/*
+
 
 ### PowerShell ###
 # Exclude packaged modules
