@@ -1,0 +1,50 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/git,powershell,logtalk
+# Edit at https://www.toptal.com/developers/gitignore?templates=git,powershell,logtalk
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### Logtalk ###
+# gitignore template for LogTalk, a programming language that builds upon Prolog
+# website: https://logtalk.org/
+
+# Logtalk temporary file directories
+.lgt_tmp/
+lgt_tmp/
+
+# Logtalk default unit testing and doclet results and logs directories
+logtalk_tester_logs/
+logtalk_doclet_logs/
+
+# backend Prolog compiler temporary files
+.pl-history
+*.out
+*.xwam
+*.qo
+*.ql
+*.itf
+*.po
+
+temp.log
+
+### PowerShell ###
+# Exclude packaged modules
+*.zip
+
+# Exclude .NET assemblies from source
+*.dll
+
+# End of https://www.toptal.com/developers/gitignore/api/git,powershell,logtalk
